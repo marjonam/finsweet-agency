@@ -1,0 +1,34 @@
+.btn {
+  padding: 20px 32px;
+
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  width: 219px;
+  height: 64px;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #444fc4;
+  background-image: url("../images/Shapes-btn-bg.svg");
+  background-repeat: no-repeat;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  opacity: 0.6;
+}
+
+.btn-text {
+  color: #ffffff;
+}
+
+.btn-image {
+  width: 20px;
+}
