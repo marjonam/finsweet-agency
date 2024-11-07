@@ -1,1 +1,27 @@
 @import "./index.css";
+
+.quote-button {
+  background-color: #444cfc;
+  color: white;
+  padding: 20px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins";
+  border-radius: 2px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../images/Shapes-btn-bg.svg"),
+    url("../images/Icon-row.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.quote-button:hover {
+  opacity: 0.8;
+}
+
+.quote-button-row {
+  color: black;
+}
