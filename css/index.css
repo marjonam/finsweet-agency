@@ -25,3 +25,46 @@
 .quote-button-row {
   color: black;
 }
+
+.header-home {
+  background-color: #232536;
+  padding-bottom: 32px;
+  color: white;
+  padding-top: 96px;
+}
+.home-section {
+  display: flex;
+  justify-content: space-between;
+}
+.left-info {
+  width: 624px;
+}
+
+.left-info h1 {
+  padding-bottom: 24px;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 68px;
+}
+.text-info {
+  padding-bottom: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins";
+  line-height: 24px;
+  color: rgba(255, 255, 255, 60%);
+}
+.img-right {
+  margin-top: 56px;
+  padding-bottom: 24px;
+}
+.header-right-img {
+  padding: 0;
+  width: 563px;
+  justify-content: center;
+  display: flex;
+  background-image: url("../images/home-header-smallshape.svg");
+
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
