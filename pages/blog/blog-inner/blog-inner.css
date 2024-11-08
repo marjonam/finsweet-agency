@@ -12,6 +12,17 @@
   color: #232536;
   padding: 24px 0;
   margin-left: 160px;
+  background-image: url("../../../images/shape-pink-kvadrat.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  margin-left: 160px;
+}
+
+.breaking-container {
+  background-image: url("../../../images/header-shape-right.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 160px;
 }
 
 .breaking-p {
